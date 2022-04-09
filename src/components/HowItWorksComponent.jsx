@@ -8,21 +8,22 @@ import Grid from "@mui/material/Grid";
 const HowItWorksComponent = () => {
   return (
     <>
-      <Typography
-        variant="h4"
-        color="textPrimary"
-        sx={{
-          textAlign: "center",
-        }}
-      >
-        How It Works
-      </Typography>
       <Container
         maxWidth="lg"
         sx={{
           p: 3,
         }}
       >
+        <Typography
+          variant="h4"
+          color="textPrimary"
+          sx={{
+            textAlign: "center",
+            mb: 3,
+          }}
+        >
+          How It Works
+        </Typography>
         <Grid container spacing={1} direction="column" alignItems="left">
           <Typography variant="h5" color="secondary">
             1. Find Your Delivery Pro
@@ -47,7 +48,15 @@ const HowItWorksComponent = () => {
             You just tell them where you want them to put it.
           </Typography>
         </Grid>
-        <Grid container spacing={1} alignItems="left" direction="column">
+        <Grid
+          container
+          spacing={1}
+          alignItems="left"
+          direction="column"
+          sx={{
+            mb: 3,
+          }}
+        >
           <Typography variant="h5" color="secondary">
             3. Track & Pay in the App
           </Typography>

@@ -28,6 +28,9 @@ const DownloadAppsComponent = () => {
         bgcolor: "grey.100",
       }}
     >
+      <Typography variant="h4" color="primary">
+        Download Application
+      </Typography>
       <Typography variant="h6" color="textPrimary" sx={{ fontWeight: "bold" }}>
         Use our mobile app to get real-time status updates on the go and
         communicate with your driver.
